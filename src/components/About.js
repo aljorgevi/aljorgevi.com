@@ -22,13 +22,13 @@ const About = () => {
             , Welcome to my online portfolio.
           </p>
           <p>
-            My name is Jorge Mena, I'm business engineer and a self-driven and
-            motivated entrepreneur from Chile.
+            My name is Jorge Mena, I am a self-driven, motivated business
+            engineer from Chile.
           </p>
 
           <p>
-            In 2021 i found my passion, front-end development. I currently write
-            front-end cod. as freelancer.
+            In 2021 I found my passion for front-end development. I currently
+            write front-end cod. as a freelancer.
           </p>
           <Link to="/about" className="btn">
             about me

@@ -17,36 +17,37 @@ const AboutPage = () => {
 
             <article className="about-text">
               <p className="text-1">
-                Hi there!{" "}
+                Hi there!
                 <span role="img" aria-label="hi">
                   👋🏽
                 </span>
                 Welcome to my online portfolio.
               </p>
               <p>
-                First off, introductions. My name is Jorge Mena and I love to
-                learn new things.
+                My name is Jorge Mena. I love to learn. I am always wanting to
+                learn new things that will help me grow professionally.
               </p>
               <p>A little of history about me...</p>
 
               <p>
-                I was born in Argentina, but lived in Chile almost all my life.
-                I studied businesses engineering and after a short time working,
-                I travel to Australia with a working holiday visa. While i was
-                in Australia i meet my wife. I Lived in Australia for two years.
+                I was born in Argentina, but I have lived in Chile for most of
+                my life. I studied business engineering and after a short time
+                working, I travel to Australia on a working holiday visa. While
+                i was in Australia I met my wife. We lived in Australia for two
+                years.
               </p>
               <p>
-                In 2021 while i was in England decided to make a big turnaround
-                and study programming, precisely Frontend Developer, wherewith
-                my acknowledgement of business I've got a powerful mix of tools.
+                In 2021 while I was living in England with my wife, I decided to
+                make a have a change of career and started studying programming.
+                Specifically Frontend Developing.
               </p>
-              <p>I'm currently living en Leight on Sea, England.</p>
+              <p>I'm currently living in Leigh on Sea, England.</p>
 
               <p>
-                I am keen to develop my learnt skills within a professional
-                field. Looking to obtain a role within a fast paced and
-                progressive environment; that will develop my Frontend knowledge
-                and further benefit an organisation.
+                I am keen to develop my skills within a professional role. I am
+                looking to obtain a role within a fast paced and progressive
+                environment; that will develop my Frontend knowledge and further
+                benefit myself and an organisation.
               </p>
             </article>
           </div>

@@ -24,7 +24,6 @@ const Connect = () => {
           <Title title="let's get in touch" />
 
           <div className="video-text">
-            {/* <p></p> */}
             <p>
               Would you like to create something impressive together?. Or simply
               want to say hello or ask a question, don't hesitate to use the
