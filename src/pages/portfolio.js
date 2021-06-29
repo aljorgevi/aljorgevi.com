@@ -12,7 +12,7 @@ const PortfolioPage = () => {
       <Container>
         <section className="section section-center">
           <Title title="Porfolio" />
-          <ProjectCard />
+          {/* <ProjectCard /> */}
         </section>
       </Container>
     </Layout>

@@ -6,11 +6,11 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 const ProjectCard = () => {
   const data = useStaticQuery(query)
-  const projects = data.allContentfulProject.nodes
+  const allProjects = data.allContentfulProject.nodes
 
   return (
     <Wrapper className="section-center">
-      {projects.map(item => {
+      {allProjects.map(item => {
         const { id, image, url, title, description, github } = item
         return (
           <article className="single-project" key={id}>

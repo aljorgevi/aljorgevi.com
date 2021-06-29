@@ -7,8 +7,10 @@ import SkillSet from "../components/SkillSet"
 import Experience from "../components/Experiencie"
 import Connect from "../components/Connect"
 import Seo from "../components/Seo"
+import { featuredProjects } from "../queries/ContentfulProjects"
 
 export default function Home() {
+  console.log(featuredProjects)
   return (
     <React.Fragment>
       <Seo />
