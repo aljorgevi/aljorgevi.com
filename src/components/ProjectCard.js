@@ -10,44 +10,47 @@ const ProjectCard = () => {
 
   return (
     <Wrapper className="section-center">
-      {projects.map(item => (
-        <article className="single-project" key={item.id}>
-          <div className="project-container">
-            <GatsbyImage
-              image={getImage(item.image)}
-              alt={item.title}
-              className="img-wrapper"
-            />
-            <a
-              href={item.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-icon"
-            >
-              <FaExternalLinkAlt />
-            </a>
-          </div>
-          <div className="project-details">
-            <div className="module-text">
-              <h4>{item.title}</h4>
-              <p>{item.description}</p>
+      {projects.map(item => {
+        const { id, image, url, title, description, github } = item
+        return (
+          <article className="single-project" key={id}>
+            <div className="project-container">
+              <GatsbyImage
+                image={getImage(image)}
+                alt={title}
+                className="img-wrapper"
+              />
+              <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-icon"
+              >
+                <FaExternalLinkAlt />
+              </a>
             </div>
-          </div>
-          <div className="project-footer">
-            <span>
-              <FaGithub />
-            </span>
-            <a
-              href={item.github}
-              className="github-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              source code
-            </a>
-          </div>
-        </article>
-      ))}
+            <div className="project-details">
+              <div className="module-text">
+                <h4>{title}</h4>
+                <p>{description}</p>
+              </div>
+            </div>
+            <div className="project-footer">
+              <span>
+                <FaGithub />
+              </span>
+              <a
+                href={github}
+                className="github-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                source code
+              </a>
+            </div>
+          </article>
+        )
+      })}
     </Wrapper>
   )
 }

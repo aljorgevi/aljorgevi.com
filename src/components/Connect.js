@@ -4,6 +4,7 @@ import styled from "styled-components"
 import video from "../assets/videos/connect.mp4"
 import poster from "../assets/images/project-1.jpeg"
 import Title from "./Title"
+import ContactForm from "./ContactForm"
 
 const Connect = () => {
   return (
@@ -20,20 +21,7 @@ const Connect = () => {
           <source src={video} type="video/mp4" />
           Sorry, your browser does not support embedded videos
         </video>
-        <div className="video-banner">
-          <Title title="let's get in touch" />
-
-          <div className="video-text">
-            <p>
-              Would you like to create something impressive together?. Or simply
-              want to say hello or ask a question, don't hesitate to use the
-              form.
-            </p>
-          </div>
-          <Link to="/contact" className="btn btn-contact">
-            contact me
-          </Link>
-        </div>
+        <ContactForm />
       </div>
     </Container>
   )
@@ -43,7 +31,7 @@ const Container = styled.section`
   .connect {
     min-height: 40vh;
     position: relative;
-    padding: 7rem 0;
+    padding: 10rem 0;
     display: grid;
     place-items: center;
     -webkit-clip-path: polygon(

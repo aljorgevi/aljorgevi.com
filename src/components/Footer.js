@@ -8,7 +8,7 @@ const Footer = () => {
       <div>
         <SocialLinks styleClass="footer-icons" />
         <p className="footer-text">
-          &copy;{new Date().getFullYear()} aljorgevi. All rights reserved
+          &copy;{new Date().getFullYear()} aljorgevi.
         </p>
       </div>
     </Container>

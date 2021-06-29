@@ -19,11 +19,6 @@ const Links = ({ styleClass, toggleSidebar }) => {
           About
         </Link>
       </li>
-      <li>
-        <Link to="/contact" className="page-link" onClick={toggleSidebar}>
-          Contact
-        </Link>
-      </li>
     </ul>
   )
 }

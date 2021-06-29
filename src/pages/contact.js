@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import Layout from "../components/Layout"
-import ContactForm from "../components/Form/ContactForm"
+import ContactForm from "../components/ContactForm"
 import Seo from "../components/Seo"
 
 const Reservation = () => {
