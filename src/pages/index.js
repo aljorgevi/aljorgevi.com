@@ -16,7 +16,7 @@ export default function Home() {
       <Seo />
       <Header />
       <Layout>
-        <Portfolio />
+        <Portfolio featured />
         <About />
         <SkillSet />
         <Experience />

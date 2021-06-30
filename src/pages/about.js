@@ -21,12 +21,11 @@ const AboutPage = () => {
                 <span role="img" aria-label="hi">
                   👋🏽
                 </span>
-                Welcome to my online portfolio.
               </p>
-              <p>
+              {/* <p>
                 My name is Jorge Mena. I love to learn. I am always wanting to
                 learn new things that will help me grow professionally.
-              </p>
+              </p> */}
               <p>A little of history about me...</p>
 
               <p>
@@ -38,10 +37,10 @@ const AboutPage = () => {
               </p>
               <p>
                 In 2021 while I was living in England with my wife, I decided to
-                make a have a change of career and started studying programming.
+                make a change of career and started studying programming.
                 Specifically Frontend Developing.
               </p>
-              <p>I'm currently living in Leigh on Sea, England.</p>
+              {/* <p>I'm currently living in Leigh on Sea, England.</p> */}
 
               <p>
                 I am keen to develop my skills within a professional role. I am

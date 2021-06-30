@@ -1,16 +1,12 @@
 import React from "react"
 import styled from "styled-components"
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"
-import { graphql, useStaticQuery } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-const ProjectCard = () => {
-  const data = useStaticQuery(query)
-  const allProjects = data.allContentfulProject.nodes
-
+const ProjectCard = ({ projects }) => {
   return (
     <Wrapper className="section-center">
-      {allProjects.map(item => {
+      {projects.map(item => {
         const { id, image, url, title, description, github } = item
         return (
           <article className="single-project" key={id}>
@@ -151,24 +147,6 @@ const Wrapper = styled.div`
     .single-project {
       margin-left: 15px;
       margin-bottom: 0;
-    }
-  }
-`
-
-const query = graphql`
-  {
-    allContentfulProject(sort: { fields: featured, order: DESC }) {
-      nodes {
-        description
-        github
-        title
-        image {
-          gatsbyImageData(placeholder: BLURRED, layout: CONSTRAINED)
-        }
-        url
-        id
-        featured
-      }
     }
   }
 `

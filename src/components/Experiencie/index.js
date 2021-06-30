@@ -11,9 +11,6 @@ const Experiencie = () => {
           title="Experiencie"
           subtitle="More details on my resume, click the image below"
         />
-        {/* <p className="subtitle">
-
-        </p> */}
         <ExperiencieCard />
       </div>
     </Container>
