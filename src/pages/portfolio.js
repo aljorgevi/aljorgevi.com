@@ -1,5 +1,5 @@
 import { graphql } from "gatsby"
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import styled from "styled-components"
 import Layout from "../components/Layout"
 import ProjectCard from "../components/ProjectCard"
@@ -32,12 +32,13 @@ const PortfolioPage = ({ data }) => {
           <Title title="Projects" />
           <div className="filter">
             <label>Filter by category </label>
-            <select
-              onChange={e => filterItems(e.target.value)}
-              value={category}
-            >
+            <select onChange={e => filterItems(e.target.value)}>
               {allCategories.map(category => {
-                return <option key={category}>{category}</option>
+                return (
+                  <option key={category} value={category}>
+                    {category}
+                  </option>
+                )
               })}
             </select>
           </div>
