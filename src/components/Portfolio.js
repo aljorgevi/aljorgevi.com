@@ -13,20 +13,24 @@ const Portfolio = () => {
     <Wrapper className="section bg-grey">
       <Title title="Portfolio" />
       <div className="portfolio-underline"> </div>
-      <ProjectCard projects={featuredProjects} />
-      <Link to="/portfolio" className="center-btn">
-        <button className="btn">All projects</button>
-      </Link>
+      <ProjectCard projectsList={featuredProjects} />
+      <div className="center-btn ">
+        <Link to="/portfolio" className="btn">
+          All projects
+        </Link>
+      </div>
     </Wrapper>
   )
 }
 
 const Wrapper = styled.section`
   height: 100%;
+
   .center-btn {
     display: flex;
     justify-content: center;
-    margin: 3rem 0;
+    align-items: center;
+    margin: 2rem 0;
   }
 `
 
@@ -39,6 +43,7 @@ const query = graphql`
         url
         id
         github
+        category
         image {
           gatsbyImageData(placeholder: BLURRED, layout: CONSTRAINED)
         }

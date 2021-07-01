@@ -21,6 +21,7 @@ const Connect = () => {
           <source src={video} type="video/mp4" />
           Sorry, your browser does not support embedded videos
         </video>
+
         <ContactForm />
       </div>
     </Container>

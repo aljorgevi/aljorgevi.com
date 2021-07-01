@@ -3,11 +3,12 @@ import styled from "styled-components"
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-const ProjectCard = ({ projects }) => {
+const ProjectCard = ({ projectsList = [] }) => {
   return (
     <Wrapper className="section-center">
-      {projects.map(item => {
+      {projectsList.map(item => {
         const { id, image, url, title, description, github } = item
+
         return (
           <article className="single-project" key={id}>
             <div className="project-container">
@@ -114,6 +115,7 @@ const Wrapper = styled.div`
       margin-top: 2rem;
     }
     p {
+      text-align: center;
       color: var(--primary-900);
       margin-bottom: 0.5rem;
     }

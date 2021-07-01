@@ -1,5 +1,5 @@
 import { graphql } from "gatsby"
-import React from "react"
+import React, { useState, useEffect } from "react"
 import styled from "styled-components"
 import Layout from "../components/Layout"
 import ProjectCard from "../components/ProjectCard"
@@ -11,13 +11,38 @@ const PortfolioPage = ({ data }) => {
     allContentfulProject: { nodes: allProjects },
   } = data
 
+  const [category, setCategory] = useState(allCategories)
+  const [projects, setProjects] = useState(allProjects)
+
+  const allCategories = ["all", ...new Set(allProjects.map(c => c.category))]
+
+  const filterItems = category => {
+    if (category === "all") {
+      setProjects(allProjects)
+      return
+    }
+    const filteredProjects = allProjects.filter(p => p.category === category)
+    setProjects(filteredProjects)
+  }
+
   return (
     <Layout title="Portfolio">
       <Seo />
       <Container>
         <section className="section section-center">
-          <Title title="Porfolio" />
-          <ProjectCard projects={allProjects} />
+          <Title title="Projects" />
+          <div className="filter">
+            <label>Filter by category </label>
+            <select
+              onChange={e => filterItems(e.target.value)}
+              value={category}
+            >
+              {allCategories.map(category => {
+                return <option key={category}>{category}</option>
+              })}
+            </select>
+          </div>
+          <ProjectCard projectsList={projects} />
         </section>
       </Container>
     </Layout>
@@ -26,6 +51,27 @@ const PortfolioPage = ({ data }) => {
 
 const Container = styled.section`
   background: var(--primary-100);
+
+  .filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: -1rem;
+    font-size: 1.2rem;
+    color: var(--grey-600);
+
+    & label {
+    }
+
+    & select {
+      margin-top: 1rem;
+      width: 150px;
+      text-transform: uppercase;
+    }
+  }
 `
 
 export const query = graphql`
@@ -38,6 +84,7 @@ export const query = graphql`
         id
         github
         featured
+        category
         image {
           gatsbyImageData(placeholder: BLURRED, layout: CONSTRAINED)
         }
