@@ -10,11 +10,10 @@ const PortfolioPage = ({ data }) => {
   const {
     allContentfulProject: { nodes: allProjects },
   } = data
+  const allCategories = ["all", ...new Set(allProjects.map(c => c.category))]
 
   const [category, setCategory] = useState(allCategories)
   const [projects, setProjects] = useState(allProjects)
-
-  const allCategories = ["all", ...new Set(allProjects.map(c => c.category))]
 
   const filterItems = category => {
     if (category === "all") {
