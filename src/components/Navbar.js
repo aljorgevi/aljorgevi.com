@@ -80,7 +80,7 @@ const Wrapper = styled.nav`
       font-weight: bold;
       letter-spacing: var(--letterSpacing);
       transition: var(--transition);
-      padding: 0.8612rem 0;
+      padding: 0.8712rem 0;
       &:hover {
         border-bottom: 4px solid var(--white);
       }
