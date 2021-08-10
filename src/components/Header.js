@@ -15,7 +15,7 @@ const Header = () => {
       <div className="info"></div>
       <article>
         <h1>Jorge Andrés Mena</h1>
-        <h3>Junior Full-Stack JavaScript Developer</h3>
+        <h3>Front End Developer</h3>
       </article>
     </Wrapper>
   )
@@ -54,19 +54,21 @@ const Wrapper = styled.header`
     max-width: 800px;
     color: var(--white);
     text-align: center;
+
     h1 {
-      text-transform: uppercase;
       font-weight: 500;
       line-height: 1.25;
       margin-bottom: 0.5rem;
       letter-spacing: 3px;
       font-size: 1.453rem;
       animation: slideFromRight 4s ease-in-out 1;
+      text-transform: uppercase;
     }
     h3 {
       font-weight: 400;
       font-size: 1.253rem;
       animation: slideFromLeft 4s ease-in-out 1;
+      text-transform: uppercase;
     }
   }
   .logo {

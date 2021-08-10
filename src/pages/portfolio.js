@@ -12,7 +12,6 @@ const PortfolioPage = ({ data }) => {
   } = data
   const allCategories = ["all", ...new Set(allProjects.map(c => c.category))]
 
-  const [category, setCategory] = useState(allCategories)
   const [projects, setProjects] = useState(allProjects)
 
   const filterItems = category => {
@@ -31,8 +30,9 @@ const PortfolioPage = ({ data }) => {
         <section className="section section-center">
           <Title title="Projects" />
           <div className="filter">
-            <label>Filter by category </label>
-            <select onChange={e => filterItems(e.target.value)}>
+            <label htmlFor="select">Filter by category </label>
+            {/* eslint-disable-next-line */}
+            <select id="select" onChange={e => filterItems(e.target.value)}>
               {allCategories.map(category => {
                 return (
                   <option key={category} value={category}>

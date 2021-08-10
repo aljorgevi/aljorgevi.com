@@ -17,6 +17,7 @@ const Tooltip = props => {
   }
 
   return (
+    // eslint-disable-next-line
     <div
       role="tooltip"
       className="Tooltip-Wrapper"

@@ -1,9 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 import styled from "styled-components"
 import video from "../assets/videos/connect.mp4"
 import poster from "../assets/images/project-1.jpeg"
-import Title from "./Title"
 import ContactForm from "./ContactForm"
 
 const Connect = () => {

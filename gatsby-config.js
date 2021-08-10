@@ -12,8 +12,8 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: `Aljorgevi`,
-    description: `Jorge Mena Carcamo, Full Stack Developer personal website. HTML, CSS, and JavaScript, MERN Stack`,
-    titleTemplate: `%s | Full Stack Developer Website. HTML, CSS, and JavaScript, MERN Stack`,
+    description: `Jorge Mena, Frontend Developer personal website. HTML, CSS, and JavaScript, MERN Stack`,
+    titleTemplate: `%s | Frontend Developer Website. HTML, CSS, and JavaScript, MERN Stack`,
     url: `https://aljorgevi.com`,
     twitterUsername: `@aljorgevi`,
     image: `/aljorgevi-main.png`,
