@@ -22,31 +22,24 @@ const AboutPage = () => {
                   👋🏽
                 </span>
               </p>
-              {/* <p>
-                My name is Jorge Mena. I love to learn. I am always wanting to
-                learn new things that will help me grow professionally.
-              </p> */}
+
               <p>A little of history about me...</p>
 
               <p>
                 I was born in Argentina, but I have lived in Chile for most of
                 my life. I studied business engineering and after a short time
-                working, I travel to Australia on a working holiday visa. While
-                i was in Australia I met my wife. We lived in Australia for two
-                years.
+                working, I travel to Australia on a working holiday visa. During
+                my time in Australia I met my wife, where we lived in Melbourne
+                for two years.
               </p>
-              <p>
-                In 2021 while I was living in England with my wife, I decided to
-                make a change of career and started studying programming.
-                Specifically Frontend Developing.
-              </p>
-              {/* <p>I'm currently living in Leigh on Sea, England.</p> */}
 
               <p>
-                I am keen to develop my skills within a professional role. I am
-                looking to obtain a role within a fast paced and progressive
-                environment; that will develop my Frontend knowledge and further
-                benefit myself and an organisation.
+                I am currently living in Leigh on Sea, England. Hoping to obtain
+                an entry-level position at a great company to be a hard-working
+                asset to any team, to learn, grow and develop long-term.
+              </p>
+              <p>
+                I have a tier 2 dependent visa and do not require sponsorship.
               </p>
             </article>
           </div>
