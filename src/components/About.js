@@ -22,8 +22,8 @@ const About = () => {
             , Welcome to my online portfolio.
           </p>
           <p>
-            My name is Jorge Mena, I am a self-driven, motivated business
-            engineer from Chile.
+            My name is Jorge Mena, I am Frontend Developer and a motivated
+            Business Engineer from Chile. Currently living in England.
           </p>
 
           <p>
