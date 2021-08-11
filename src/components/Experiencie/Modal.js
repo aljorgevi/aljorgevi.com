@@ -11,18 +11,15 @@ const Modal = ({ open, handleClose }) => {
             <h1>Jorge Andrés Mena Cárcamo</h1>
             <h6>Leigh on sea, Essex | jormencar@yahoo.com</h6>
             <p>
-              Junior Full-Stack JavaScript Developer and Business Engineer. A
-              creative professional with a keen eye for modern web design.
+              Frontend Developer and Business Engineer. A creative professional
+              with a keen eye for modern web design.
             </p>
           </div>
           <div className="modal-body">
             <h3>Highlights and strengths</h3>
             <article>
               <ul>
-                <li>
-                  Strong knowledge of HTML, CSS and Javascript current standards
-                  and cross browser compatibility.
-                </li>
+                <li>Strong knowledge of HTML, CSS and JavaScript.</li>
                 <li>
                   Front-end experience with responsive design, CSS3, SASS and
                   Bootstrap.
@@ -32,20 +29,6 @@ const Modal = ({ open, handleClose }) => {
                   Authorization/Authentication and RESTful APIs.
                 </li>
                 <li>
-                  Identified web-based user interactions and developed
-                  highly-responsive user interface components via React concepts
-                </li>
-                <li>
-                  Translated designs & wireframes into high-quality code and
-                  wrote application interface code via JavaScript following
-                  React.js workflows
-                </li>
-                <li>
-                  Creative graphic and UI design skills with Photoshop and
-                  Figma.
-                </li>
-                <li>Efficient workflow management with npm, Gulp and Sass."</li>
-                <li>
                   Relational and nonrelational database administration using
                   MongoDB, Firebase and SQL.
                 </li>
@@ -53,102 +36,137 @@ const Modal = ({ open, handleClose }) => {
                   Positive attitude, strong work ethic, out-of-the-box thinking
                   and high level of professional integrity.
                 </li>
-                <li>Bilingual in both English & Spanish.</li>
+                <li>
+                  Excellent project management skills with strong organisational
+                  skills and attention to detail
+                </li>
+                <li>
+                  Ability to work in a highly dynamic and collaborative team
+                  environment as a positive and engaged professional.
+                </li>
+                <li>
+                  Excellent time management and communication skills, both
+                  verbal and written.
+                </li>
+                <li>
+                  Bilingual in English and Spanish, with a proven ability to
+                  learn new learning technologies and skills quickly.
+                </li>
               </ul>
             </article>
             <h3>Experience</h3>
             <article>
               <h4>
-                Front End Developer | Pseit Informatica | Puerto Montt, Chile |
+                Full-Stack JavaScript Developer | Freelancer | Chile-UK | April
                 2021 - Present
               </h4>
               <ul>
                 <li>
-                  Determined the structure and design of web pages based on user
-                  requirements and balanced functional & aesthetic designs
+                  Developed and structured feature-rich client websites,
+                  ensuring that all needs were met.
                 </li>
-
                 <li>
-                  Created features to enhance the user experiece while ensuring
-                  that the web design is optimized for smartphones
+                  Identified web-based user interactions and developed highly
+                  responsive user interface components via React concepts.
                 </li>
-
                 <li>
-                  Managed brand consistency throughout the design and maintained
-                  & improved the company's website by adding more features and
-                  functionality.
+                  Interacted with the prospective clients to review the website,
+                  and gather the client’s specifications for new or existing
+                  websites.• Interacted with the prospective clients to review
+                  the website, and gather the client’s specifications for new or
+                  existing websites.
                 </li>
-              </ul>
-              <h4>
-                Full-Stack Javascript Developer | Freelancer | Chile-UK | 2021 -
-                Present
-              </h4>
-              <ul>
+                <li>
+                  Effectively translated client requirements into application
+                  designs and systems requirements.
+                </li>
+                <li>
+                  Followed policies and procedures related to application
+                  methods and quality standards at all times.
+                </li>
                 <li>
                   Employed a variety of languages such as HTML, CSS and
-                  JavaScript with React to create user-friendly web pages
+                  JavaScript with React to create user-friendly web pages.
+                </li>
+                <li>
+                  Determined the structure and design of web pages based on user
+                  requirements and balanced functional and aesthetic designs.
+                </li>
+                <li>
+                  Created features to enhance the user experience while ensuring
+                  that the web design is optimised for smartphones.
                 </li>
               </ul>
-
               <h4>
-                Loki Rent a car | Co-Founder | Puerto Montt, Chile| 2018 - 2021
+                Company Cofounder | Loki Rent a Car | Puerto Montt Chile | 2018
+                – 2021
               </h4>
               <ul>
                 <li>
                   Participated in all aspects of business development from
-                  market research and finance to operations and marketing. Key
-                  responsibilities included the company’s social media and web
-                  development, ensuring that the company's vision was followed.
+                  market research and finance to operations and marketing.
                 </li>
                 <li>
-                  Cofounding the company’s start-up. Focusing on the development
-                  of an easy way to rent a car for both locals and
-                  internationals. Being the first point of call in the business
-                  when dealing with foreign customers due to speaking both
-                  English & Spanish fluently.
+                  Assumed responsibility for handling the company’s social media
+                  and web development
                 </li>
                 <li>
-                  Formulated the company's vision, goals, and objectives. In
-                  charge of hiring and training new employees.
+                  Cofounded the company’s start-up with a special focus on
+                  developing an easy way to rent a car for both locals and
+                  internationals.
+                </li>
+                <li>
+                  Being the first point of call in the business when dealing
+                  with foreign customers due to speaking both English & Spanish
+                  fluently.
+                </li>
+                <li>
+                  Formulated the company's vision, goals, and objectives and
+                  also responsible for hiring and training new employees.
                 </li>
               </ul>
 
               <h4>
-                Ditutti | Sales Administrator / Community Manager | Puerto
-                Montt, Chile | 2015 - 2017
+                Sales Administrator/Community Manager | Ditutti, Retail Trade |
+                Valdivia, Chile | Nov 2015 - 2020
               </h4>
               <ul>
                 <li>
-                  Developed a full-scale sales operation from the ground up.
-                  Duties included establishing database systems, recruitment of
-                  employees and developing sales and marketing strategies.
+                  Developed a full-scale sales operation from the ground up and
+                  handled social media management and development.
                 </li>
                 <li>
-                  Implementing strategic goals for marketing campaigns, serving
-                  as project manager and leading a team of creative and
-                  technical staff.
+                  Responsible for establishing database systems, handling
+                  recruitment of employees and developing sales and marketing
+                  strategies.
                 </li>
                 <li>
-                  Strategising with senior management to market new products and
+                  Implemented strategic goals for marketing campaigns, served as
+                  project manager and led a team of creative and technical
+                  staff.
+                </li>
+                <li>
+                  Strategised with senior management to market new products and
                   consumer goods into traditional retail channels and
-                  distribution in the developing market.
-                </li>
-                <li>
-                  Successfully expanding the marketing reach of older products
-                  into emerging digital and online platforms. In charge of all
-                  social media management and development.
+                  distribution in the developing market; successfully expanded
+                  the marketing reach of older products into emerging digital
+                  and online platforms.
                 </li>
               </ul>
             </article>
             <h3>Education</h3>
             <article>
               <h4>
-                Full-Stack JavaScript Developer | E-learning | Platzi, & Others
-                | 2021
+                Full-Stack JavaScript Developer | E-learning | Platzi,
+                freecodecamp & Others | 2021
               </h4>
               <h4>
                 Degree in Business Engineering| Universidad Austral de Chile |
                 Puerto Montt, Chile | 2015
+              </h4>
+              <h4>
+                Diploma Course, Strategies of sales | Universidad Austral de
+                Chile | 2015
               </h4>
             </article>
             <h3>Publications</h3>
