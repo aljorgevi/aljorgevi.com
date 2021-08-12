@@ -17,19 +17,15 @@ const About = () => {
           <p className="mt-0">
             Hi there!
             <span role="img" aria-label="hi">
-              👋🏽
+              👋🏽.
             </span>
-            , Welcome to my online portfolio.
+            Welcome to my online portfolio.
           </p>
           <p>
-            My name is Jorge Mena, I am Frontend Developer and a motivated
-            Business Engineer from Chile. Currently living in England.
+            My name is Jorge Mena, I am a Frontend Developer and Business
+            Engineer from Chile. Currently living in England.
           </p>
 
-          <p>
-            In 2021 I found my passion for front-end development. I currently
-            write front-end cod. as a freelancer.
-          </p>
           <Link to="/about" className="btn">
             about me
           </Link>

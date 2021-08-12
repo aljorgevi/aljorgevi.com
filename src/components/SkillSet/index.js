@@ -15,7 +15,7 @@ const SkillSetSection = () => {
 
 const Wrapper = styled.section`
   background: var(--primary-100);
-  width: 100vw;
+  width: 100%;
   margin: 0 auto;
 `
 

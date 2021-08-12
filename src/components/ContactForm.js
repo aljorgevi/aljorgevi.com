@@ -65,14 +65,6 @@ const ContactForm = () => {
               {...register("email", { required: true })}
             />
             {errors.email && <p className="error">Complete this field</p>}
-            <input
-              className="form-control"
-              type="text"
-              placeholder="Phone"
-              name="phone"
-              {...register("phone")}
-            />
-
             <textarea
               className="form-control"
               type="text"
