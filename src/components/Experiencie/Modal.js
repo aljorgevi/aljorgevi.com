@@ -9,7 +9,7 @@ const Modal = ({ open, handleClose }) => {
         <Container className="modal-container">
           <div className="modal-header">
             <h1>Jorge Andrés Mena Cárcamo</h1>
-            <h6>Leigh on sea, Essex | jormencar@yahoo.com</h6>
+            <h6>Leigh on sea, Essex | jormencar@gmail.com</h6>
             <p>
               Frontend Developer and Business Engineer. A creative professional
               with a keen eye for modern web design.
