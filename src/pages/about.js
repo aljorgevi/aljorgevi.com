@@ -38,9 +38,7 @@ const AboutPage = () => {
                 an entry-level position at a great company to be a hard-working
                 asset to any team, to learn, grow and develop long-term.
               </p>
-              <p>
-                I have a tier 2 dependent visa and do not require sponsorship.
-              </p>
+              <p>I hold a valid settlement visa, no sponsorship is required.</p>
             </article>
           </div>
         </div>
