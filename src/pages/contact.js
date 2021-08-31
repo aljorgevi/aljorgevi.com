@@ -23,6 +23,7 @@ export default Reservation
 
 const Container = styled.section`
   background: var(--grey-100);
+  min-height: calc(100vh);
 
   .contact-title {
     h2 {

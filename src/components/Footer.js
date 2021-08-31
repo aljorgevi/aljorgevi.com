@@ -1,10 +1,17 @@
 import React from "react"
 import styled from "styled-components"
 import SocialLinks from "../constants/SocialLinks"
+import { motion } from "framer-motion"
+import { pageAnimation3 } from "../utils/animations"
 
 const Footer = () => {
   return (
-    <Container>
+    <Container
+      variants={pageAnimation3}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+    >
       <div>
         <SocialLinks styleClass="footer-icons" />
         <p className="footer-text">
@@ -15,7 +22,7 @@ const Footer = () => {
   )
 }
 
-const Container = styled.footer`
+const Container = styled(motion.footer)`
   height: 7rem;
   text-align: center;
   background: var(--black);

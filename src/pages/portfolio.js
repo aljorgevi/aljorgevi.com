@@ -24,7 +24,7 @@ const PortfolioPage = ({ data }) => {
   }
 
   return (
-    <Layout title="Portfolio">
+    <Layout>
       <Seo />
       <Container>
         <section className="section section-center">
