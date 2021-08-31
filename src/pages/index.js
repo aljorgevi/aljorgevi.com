@@ -10,7 +10,6 @@ import Seo from "../components/Seo"
 import { featuredProjects } from "../queries/ContentfulProjects"
 
 export default function Home() {
-  console.log(featuredProjects)
   return (
     <React.Fragment>
       <Seo />

@@ -19,6 +19,7 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "babel-plugin-styled-components": "^1.12.0",
     "emailjs-com": "^2.6.4",
+    "framer-motion": "^4.1.17",
     "gatsby": "^3.6.2",
     "gatsby-plugin-google-gtag": "^3.10.0",
     "gatsby-plugin-image": "^1.6.0",
