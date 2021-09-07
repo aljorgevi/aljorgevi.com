@@ -11,8 +11,8 @@ const Modal = ({ open, handleClose }) => {
             <h1>Jorge Andrés Mena Cárcamo</h1>
             <h6>Leigh on sea, Essex | jormencar@gmail.com</h6>
             <p>
-              Frontend Developer and Business Engineer. A creative professional
-              with a keen eye for modern web design.
+              Web Frontend Developer and Business Engineer. A creative
+              professional with a keen eye for modern web design.
             </p>
           </div>
           <div className="modal-body">
@@ -127,8 +127,8 @@ const Modal = ({ open, handleClose }) => {
               </ul>
 
               <h4>
-                Sales Administrator/Community Manager | Ditutti, Retail Trade |
-                Valdivia, Chile | Nov 2015 - 2020
+                Assisant Manager | Ditutti, Retail Trade | Valdivia, Chile | Nov
+                2015 - 2020
               </h4>
               <ul>
                 <li>
