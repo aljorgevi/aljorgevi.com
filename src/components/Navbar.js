@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import logo from "../assets/images/logo.png"
-import { FaAlignRight } from "react-icons/fa"
+import { FaAlignRight, FaLinkedin, FaGithub } from "react-icons/fa"
 import { Link } from "gatsby"
 import Links from "../constants/Links"
 
@@ -10,9 +10,20 @@ const Navbar = ({ toggleSidebar }) => {
     <Wrapper>
       <div className="nav-center">
         <div className="nav-header">
-          <Link to="/">
-            <img className="img" src={logo} alt="aljorgevi logo" />
-          </Link>
+          <a
+            href="https://www.linkedin.com/in/aljorgevi/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="icon" />
+          </a>
+          <a
+            href="https://github.com/aljorgevi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="icon" />
+          </a>
           <button type="button" className="toggle-btn" onClick={toggleSidebar}>
             <FaAlignRight />
           </button>
@@ -44,8 +55,11 @@ const Wrapper = styled.nav`
     justify-content: space-between;
     align-items: center;
   }
-  .img {
-    width: 40px;
+  .icon {
+    color: var(--white);
+    font-size: 1.5rem;
+    transition: var(--transition);
+    margin-left: 1rem;
   }
 
   .toggle-btn {
