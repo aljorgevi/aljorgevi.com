@@ -3,8 +3,18 @@ import styled from "styled-components"
 import { FaTimes } from "react-icons/fa"
 
 const Modal = ({ open, handleClose }) => {
+  const exitDetailHandler = event => {
+    const el = event.target
+    if (el.classList.contains("show-modal")) {
+      handleClose()
+    }
+  }
+
   return (
-    <div className={`${open ? "modal-overlay show-modal" : "modal-overlay"}`}>
+    <div
+      onClick={exitDetailHandler}
+      className={`${open ? "modal-overlay show-modal" : "modal-overlay"}`}
+    >
       <Wrapper>
         <Container className="modal-container">
           <div className="modal-header">
