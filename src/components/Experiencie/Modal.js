@@ -20,10 +20,7 @@ const Modal = ({ open, handleClose }) => {
           <div className="modal-header">
             <h1>Jorge Andrés Mena Cárcamo</h1>
             <h6>Leigh on sea, Essex | jormencar@gmail.com</h6>
-            <p>
-              Web Frontend Developer and Business Engineer. A creative
-              professional with a keen eye for modern web design.
-            </p>
+            <p>Web Frontend Developer specialising in React and Node.JS</p>
           </div>
           <div className="modal-body">
             <h3>Highlights and strengths</h3>
