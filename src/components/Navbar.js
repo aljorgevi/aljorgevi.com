@@ -1,8 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import logo from "../assets/images/logo.png"
 import { FaAlignRight, FaLinkedin, FaGithub } from "react-icons/fa"
-import { Link } from "gatsby"
 import Links from "../constants/Links"
 
 const Navbar = ({ toggleSidebar }) => {

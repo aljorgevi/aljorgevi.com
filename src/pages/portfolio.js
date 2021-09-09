@@ -10,6 +10,7 @@ const PortfolioPage = ({ data }) => {
   const {
     allContentfulProject: { nodes: allProjects },
   } = data
+
   const allCategories = ["all", ...new Set(allProjects.map(c => c.category))]
 
   const [projects, setProjects] = useState(allProjects)
