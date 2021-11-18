@@ -8,20 +8,23 @@ const Navbar = ({ toggleSidebar }) => {
     <Wrapper>
       <div className="nav-center">
         <div className="nav-header">
-          <a
-            href="https://www.linkedin.com/in/aljorgevi/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin className="icon" />
-          </a>
-          <a
-            href="https://github.com/aljorgevi"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaGithub className="icon" />
-          </a>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/aljorgevi/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="icon" />
+            </a>
+            <a
+              href="https://github.com/aljorgevi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub className="icon" />
+            </a>
+          </div>
+
           <button type="button" className="toggle-btn" onClick={toggleSidebar}>
             <FaAlignRight />
           </button>
