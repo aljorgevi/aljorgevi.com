@@ -34,11 +34,10 @@ const AboutPage = () => {
               </p>
 
               <p>
-                I am currently living in Leigh on Sea, England. Hoping to obtain
-                an entry-level position at a great company to be a hard-working
-                asset to any team, to learn, grow and develop long-term.
+                I am currently living in Leigh on Sea, England. Driven and
+                motivated to achieve success as a qualified professional
+                software developer.
               </p>
-              <p>I hold a valid settlement visa, no sponsorship is required.</p>
             </article>
           </div>
         </div>

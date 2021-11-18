@@ -22,8 +22,8 @@ const About = () => {
             Welcome to my online portfolio.
           </p>
           <p>
-            My name is Jorge Mena, I am a Frontend Developer and Business
-            Engineer from Chile. Currently living in England.
+            My name is Jorge, I am a Software Developer and Business Engineer
+            from Chile. Currently living in England.
           </p>
 
           <Link to="/about" className="btn">

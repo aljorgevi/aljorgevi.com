@@ -20,7 +20,7 @@ const Modal = ({ open, handleClose }) => {
           <div className="modal-header">
             <h1>Jorge Andrés Mena Cárcamo</h1>
             <h6>Leigh on sea, Essex | jormencar@gmail.com</h6>
-            <p>Web Frontend Developer specialising in React and Node.JS</p>
+            <p>Full-stack Developer</p>
           </div>
           <div className="modal-body">
             <h3>Highlights and strengths</h3>
@@ -135,7 +135,7 @@ const Modal = ({ open, handleClose }) => {
 
               <h4>
                 Assisant Manager | Ditutti, Retail Trade | Valdivia, Chile | Nov
-                2015 - 2020
+                2015 - 2017
               </h4>
               <ul>
                 <li>
