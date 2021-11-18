@@ -10,7 +10,7 @@ const Navbar = ({ toggleSidebar }) => {
         <div className="nav-header">
           <div>
             <a
-              href="https://www.linkedin.com/in/aljorgevi/"
+              href="https://www.linkedin.com/in/jorgeamena/"
               target="_blank"
               rel="noopener noreferrer"
             >
