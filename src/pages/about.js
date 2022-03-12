@@ -29,8 +29,6 @@ const AboutPage = () => {
                 I was born in Argentina, but I have lived in Chile for most of
                 my life. I studied business engineering and after a short time
                 working, I travelled to Australia on a working holiday visa.
-                During my time in Australia I met my wife, where we lived in
-                Melbourne for two years.
               </p>
 
               <p>
